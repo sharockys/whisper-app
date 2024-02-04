@@ -1,6 +1,14 @@
 name: Python Linting
 
-on: [push, pull_request]
+on:
+  push:
+    paths-ignore:
+      - "README.md"
+      - ".gitignore"
+  pull_request:
+    paths-ignore:
+      - "README.md"
+      - ".gitignore"
 
 jobs:
   lint:
