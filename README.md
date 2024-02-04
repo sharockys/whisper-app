@@ -1,5 +1,7 @@
 
-# Description 
+[![AWS ECR Push](https://github.com/sharockys/whisper-app/actions/workflows/image-build.yml/badge.svg?branch=main)](https://github.com/sharockys/whisper-app/actions/workflows/image-build.yml)
+
+# Whisper APP - A FastAPI application to transcribe audio files 
 This project is a collection of scripts and configuration files to deploy the Whisper ML application on aws using FastAPI and Docker. 
 
 ## Overview
